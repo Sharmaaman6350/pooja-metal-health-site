@@ -1,0 +1,126 @@
+/* Variables */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light: #f1efef;
+    --yellow: #f8b917;
+    --light-gray: rgba(226, 226, 226, 0.5);
+    --red: #FF4141;
+    --blue: #0D5EAF;
+    --green: #198754;
+    
+}
+.bg-lightbrown{
+    background-color: #ab7a27;
+}
+.bg-lightGray{
+    background-color: var(--light-gray);
+}
+.container-fluid{
+    padding: 0px 90px;
+}
+
+/* Default Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+}
+
+img {
+    max-width: max-content;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--black);
+}
+
+
+
+/* Font Styles */
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.fcBlack {
+    color: var(--black);
+}
+
+.fcWhite {
+    color: var(--black);
+}
+
+.fwBold {
+    font-weight: 700;
+}
+
+.fwSemibold {
+    font-weight: 600;
+}
+
+.fwRegular {
+    font-weight: 400;
+}
+
+
+
+/* Button Style */
+.btn {
+    padding: 12px 16px;
+    border: none;
+}
+
+.btn-sm {
+    padding: 8px;
+}
+
+.btnCircle {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0;
+}
+
+
+.text-justify{
+text-align: justify!important;
+}
+

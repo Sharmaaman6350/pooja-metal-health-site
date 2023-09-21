@@ -1,0 +1,83 @@
+/* fonts */
+.fontA {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.fontB {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+
+input {
+    font-size: 14px !important;
+    padding: 16px !important;
+}
+
+.inputC {
+    border-right: none !important;
+    background: #e9ecef !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.wr-22 {
+    width: 35rem !important;
+    font-size: small !important;
+}
+
+.filter:focus {
+    color: #f8b917 !important;
+}
+
+.filter:focus-visible {
+    color: #f8b917 !important;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btnCircle {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.noDropdownArrow .dropdown-toggle::after {
+    display: none;
+}
+
+.wrapper {
+    width: calc(100% - 350px);
+    padding: 16px;
+    margin-left: auto;
+}
+
+.animationRotate {
+    animation: ROTATE 0.2s linear infinite
+}
+
+@keyframes ROTATE {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

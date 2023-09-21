@@ -1,0 +1,91 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.black {
+    color: black !important;
+}
+.logo {
+    height: 7rem;
+    width: 10rem;
+}
+.bg-yellow {
+    background: #f8b917;
+    background-size: cover 100%;
+}
+.btnD {
+    background-color: black;
+    border-radius: 0px 1rem 1rem 0px;
+}
+
+.btnD:hover {
+    background-color: black !important;
+    border-radius: 0px 1rem 1rem 0px;
+}
+.w-90 {
+    width: 90%;
+}
+.hover-white:hover {
+    color: white;
+    background: none;
+}
+.bg-gray {
+    background-color: #f1f1f1;
+}
+.search-input {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.search-input:focus-visible {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    outline: transparent;
+}
+
+.search-input::backdrop {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.select1:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.select1 {
+    background: #000;
+    color: white;
+    background-image: url(../src/Images/download.svg)
+}
+
+.btn10 {
+    border-radius: 0px 1rem 1rem 0px !important;
+    color: white;
+    padding-left: 4rem;
+    width: 70%;
+}
+.gray{
+    color: gray !important;
+}
+.input1:checked{
+    background-color: #f8b917;
+    background-image: url(../src/Images/check.svg);
+    border: #f8b917;
+}
+.font1{
+    font-family: 'Brygada 1918', serif;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+}
+.btnall{
+    width: 4rem;
+}
+.tbl{
+    overflow-x:auto
+}
+
+
+
