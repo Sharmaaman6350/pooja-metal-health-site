@@ -65,17 +65,17 @@ const Header = (props) => {
                 <Navbar expand="lg" className="bg-body-tertiary top-navbar">
                     <div className="container-fluid">
 
-                        <Navbar.Brand href="/"><img src={logo} alt="logo" className='headerLogo' /></Navbar.Brand>
+                        <Navbar.Brand to="/"><img src={logo} alt="logo" className='headerLogo' /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav " className='basic-navbar'>
                             <Nav className="me-auto">
-                                <Nav.Link href="/" className={`${props.home ? "active" : ""}`}>Home</Nav.Link>
-                                <Nav.Link href="/about" className={`${props.about ? "active" : ""}`}>About</Nav.Link>
-                                <Nav.Link href="/services" className={`${props.service ? "active" : ""}`}>Services</Nav.Link>
+                                <Link to="/" className={`${props.home ? "active" : ""} nav-link`}>Home</Link>
+                                <Link to="/about" className={`${props.about ? "active" : ""} nav-link`}>About</Link>
+                                <Link to="/services" className={`${props.service ? "active" : ""} nav-link`}>Services</Link>
 
 
-                                <Nav.Link href={props.link}>Why Us</Nav.Link>
-                                <Nav.Link href="#link2">Blog</Nav.Link>
+                                <Link to={props.link} className='nav-link'>Why Us</Link>
+                                <Link to="#link2" className='nav-link'>Blog</Link>
                             </Nav>
                             <Button className='contactBtn'>Get Appointment</Button>
                         </Navbar.Collapse>
