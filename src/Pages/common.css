@@ -233,3 +233,45 @@ height: 260px;
 .addBanner p{
     color: #fff;
 }
+.therapy-box{
+    border: 2px solid  rgba(87, 52, 36,0.4);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 5px;
+    padding: 10px 10px 20px;
+    transition: all 0.4s ease;
+}
+.therapy-box:hover{
+    border: 2px solid  rgba(87, 52, 36,0.6);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 5px;
+    transition: all 0.4s ease;
+}
+.therapy-box .icon{
+    width: 15%;
+}
+.therapy-box .icon .faicon{
+    width: 60px;
+    height: 60px;
+    color: rgba(138, 92, 0, 0.8);
+}
+.therapy-box .details{
+    width: 85%;
+}
+.therapy-box .details h6{
+    font-size: 18px ;
+    font-weight: 600;
+    color: rgba(138, 92, 0, 1);
+}
+.therapy-box .details p{
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.innerpage-details .left-content p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #2b1d15;
+}

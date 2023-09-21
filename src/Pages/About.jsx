@@ -21,7 +21,7 @@ const About = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-10">
-              <h1 className='fw-bold text-white ms-4 '>About</h1>
+              <h1 className='fw-bold text-white '>About</h1>
             </div>
             <div className="col-md-2 pt-3">
               <ol className="breadcrumb " >
