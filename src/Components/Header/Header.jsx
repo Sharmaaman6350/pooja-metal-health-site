@@ -74,8 +74,8 @@ const Header = (props) => {
                                 <Link to="/services" className={`${props.service ? "active" : ""} nav-link`}>Services</Link>
 
 
-                                <Link to={props.link} className='nav-link'>Why Us</Link>
-                                <Link to="#link2" className='nav-link'>Blog</Link>
+                                <Link to={props.link} className='nav-link disabled'>Why Us</Link>
+                                <Link to="#link2"  className='nav-link disabled' >Blog</Link>
                             </Nav>
                             <Button className='contactBtn'>Get Appointment</Button>
                         </Navbar.Collapse>
