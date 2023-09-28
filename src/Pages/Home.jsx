@@ -57,17 +57,17 @@ const Home = () => {
         <div className="container-fluid">
           <div className="row top-details">
             <div className="heading">
-              <h2 className='fw-bold mb-3 text-center text-black'>PsyHealth<span className="extraline"> Consultaions & Services</span></h2>
+              <h2 className='fw-bold mb-3 text-center text-black'>PsyHealth <span className="extraline">Consultaions & Services</span></h2>
             </div>
             <p>“If you discovered something that made you tighten inside, you had better try to learn more about it.”</p>
             <p>― Nicholas Sparks</p>
 
           </div>
 
-          <div className="row mt-5 mb-5">
+          <div className="row mt-5 mb-5 mb-sm-0">
             <div className="col-md-3">
               <div className="service-box">
-                <Link to="#" className='text-black'>
+                <Link to="/obsessive-cumpulsive-disorder" className='text-black'>
                   <img src={service1} alt="obsessive compulsive disorder" />
                   <div className="box-title text-center py-2">
                     <h6 className='fw-bold'>Obsessive Compulsive Disorder(OCD)</h6>
@@ -77,7 +77,7 @@ const Home = () => {
             </div>
             <div className="col-md-3">
               <div className="service-box">
-                <Link to="#" className='text-black'>
+                <Link to="/anxiety-disorder" className='text-black'>
 
                   <img src={service2} alt="Anxiety Disorders" />
                   <div className="box-title text-center py-2">
@@ -88,7 +88,7 @@ const Home = () => {
             </div>
             <div className="col-md-3">
               <div className="service-box">
-                <Link to="#" className='text-black'>
+                <Link to="/intellectual-disability" className='text-black'>
 
                   <img src={service3} alt="Intellectual Disability" />
                   <div className="box-title text-center py-2">
@@ -99,7 +99,7 @@ const Home = () => {
             </div>
             <div className="col-md-3">
               <div className="service-box">
-                <Link to="#" className='text-black'>
+                <Link to="/depression" className='text-black'>
 
                   <img src={service4} alt="depression" />
                   <div className="box-title text-center py-2">
@@ -109,7 +109,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <center><Link to="#" className='btn contactBtn mt-3'> View All Services</Link></center>
+          <center><Link to="/services" className='btn contactBtn mt-3'> View All Services</Link></center>
         </div>
       </section>
       <section className="main-ad-banner">
@@ -120,15 +120,15 @@ const Home = () => {
                 <img src={adbanner} alt="therapy session " />
               </div>
             </div>
-            <div className="col-md-6 ">
+            <div className="col-md-6 col-sm-12">
               <div className="right-content">
 
                 <h2 className='text-center text-white fw-bold'>Need Consultation?</h2>
                 <h6 className='text-center text-white '>Contact us for all Psychological & Mental Health problems</h6>
                 <p className='text-center text-white mb-5'>(Mon-Sat : 10 AM To 6 PM)</p>
-                <div className="contact-detail ms-5 ">
-                  <Link to="#" className='text-white mail '><FontAwesomeIcon icon={faEnvelope} className='me-2' />Sharmapooja403542@gmail.com</Link>
-                  <Link to="#" className=' phone '><FontAwesomeIcon icon={faPhone} className='me-2' />+91 9636386305</Link>
+                <div className="contact-detail ms-5 ms-sm-0">
+                  <a href="mailto:Sharmapooja403542@gmail.com" className='text-white mail '><FontAwesomeIcon icon={faEnvelope} className='me-2' />Sharmapooja403542@gmail.com</a>
+                  <a href="tel:6350575063" className=' phone '><FontAwesomeIcon icon={faPhone} className='me-2' />+91 9636386305</a>
                 </div>
 
               </div>
@@ -143,7 +143,7 @@ const Home = () => {
             <h2 className='fw-bold  text-black'>Our <span className="extraline">Specialities</span></h2>
           </div>
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-7 imgSection">
               <Link to="#"><img src={whyus} alt="why to choose us" className='' height={400} width={100} /></Link>
             </div>
             <div className="col-md-5">

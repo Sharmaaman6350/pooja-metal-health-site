@@ -17,16 +17,16 @@ const Footer = () => {
                                 <img src={logo} alt="footer logo" />
                                 <br />
                                 <div className="links ms-3   d-flex">
-                                    <a href="">Blog</a>
-                                    <a href="">Sitemap</a>
-                                    <a href="">Privacy Policy</a>
+                                    <a href="#" >Blog</a>
+                                    <a href="#">Sitemap</a>
+                                    <a href="#">Privacy Policy</a>
                                 </div>
                             </div>
                             <div className="right-content">
                                 <div className="social-icons d-flex">
                                     <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-                                    <a href="#"><FontAwesomeIcon icon={faPhone} /></a>
-                                    <a href="#"><FontAwesomeIcon icon={faEnvelope} /></a>
+                                    <a href="tel:6350575063"><FontAwesomeIcon icon={faPhone} /></a>
+                                    <a href="mailto:sharmapooja403542@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
                                     <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
                                     <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
                                 </div>

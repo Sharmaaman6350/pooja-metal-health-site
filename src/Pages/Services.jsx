@@ -15,6 +15,7 @@ import { faUserDoctor, faEnvelope, faFilePrescription, faFrown, faLaptopMedical,
 import Footer from '../Components/Footer/Footer';
 
 const Services = () => {
+    document.title = "Counselling Services In Jaipur "
     return (
         <>
             <Header service="service" />

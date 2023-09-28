@@ -8,15 +8,18 @@
     --red: #FF4141;
     --blue: #0D5EAF;
     --green: #198754;
-    
+
 }
-.bg-lightbrown{
+
+.bg-lightbrown {
     background-color: #ab7a27;
 }
-.bg-lightGray{
+
+.bg-lightGray {
     background-color: var(--light-gray);
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0px 90px;
 }
 
@@ -120,7 +123,234 @@ p {
 }
 
 
-.text-justify{
-text-align: justify!important;
+.text-justify {
+    text-align: justify !important;
 }
+
+
+
+
+/*------------------------- Responsive css ------------------------ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .container-fluid {
+        padding: 0px 20px;
+    }
+
+    .top-header {
+        display: none;
+    }
+
+    .navbar-brand {
+        width: 80%;
+    }
+
+    .navbar-toggler {
+        width: 15%;
+    }
+
+    .navbar-nav {
+        padding-bottom: 40px;
+    }
+
+    .top-main-banner .bannerImg {
+        height: auto !important;
+        padding-bottom: 20px;
+    }
+
+    .top-main-banner .overlayText {
+        text-align: center !important;
+        padding-right: 0px !important;
+        padding: 10px;
+        align-items: center !important;
+    }
+
+    .top-main-banner .overlayText p {
+        font-size: 16px !important;
+    }
+.main-about-section .aboutText{
+    margin-bottom: 30px;
+}
+
+.main-about-section .aboutImg{
+    display: none;
+}
+.services-section .top-details .text-center{
+    text-align: left!important;
+}
+.services-section .service-box{
+    margin: 0px 30px 30px;
+}
+.services-section .service-box .box-title h6{
+ padding-top: 15px;
+}
+.mb-sm-0{
+    margin-bottom: 0px!important;
+}
+
+.main-ad-banner .left-content{
+    display: none;
+}
+.main-ad-banner .container-fluid {
+    padding: 0px!important;
+}
+.ms-sm-0{
+    margin-left: 0 !important;
+}
+.main-ad-banner .right-content .contact-detail .mail,.main-ad-banner .right-content .contact-detail .phone {
+    font-size: 16px!important;
+    display: block;
+    margin-bottom: 10px;
+    border: none!important;
+    margin-left: 5px;
+}
+
+.main-specialist-section .imgSection{
+    display: none;
+}
+
+
+
+/* ---------footer responsive ------------- */
+
+
+
+footer .left-content img{
+width: 90%!important;
+margin-bottom: 20px!important;
+}
+footer .left-content .links{
+    display: inline-block!important;
+}
+footer .left-content .links a{
+    display: block;
+    border: none!important;
+    margin-bottom: 10px;
+}
+footer .right-content .social-icons a {
+    font-size: 18px!important;
+    margin-top: 10px!important;
+    
+}
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+body{
+    overflow-x: hidden;
+}
+    .container-fluid {
+        padding: 0px 30px;
+    }
+
+    .top-header {
+        display: none;
+    }
+
+    .navbar-brand {
+        width: 80%;
+    }
+
+    .navbar-toggler {
+        width: 15%;
+    }
+
+    .navbar-nav {
+        padding-bottom: 40px;
+    }
+
+    .top-main-banner .bannerImg {
+        height: auto !important;
+        
+    }
+
+    .top-main-banner .overlayText {
+        text-align: center !important;
+        padding-right: 0px !important;
+        padding: 10px;
+        align-items: center !important;
+    }
+
+    .top-main-banner .overlayText p {
+        font-size: 18px !important;
+    }
+.main-about-section .aboutText{
+    margin-bottom: 30px;
+}
+
+.main-about-section .aboutImg{
+    display: none;
+}
+.services-section .top-details .text-center{
+    text-align: left!important;
+}
+.services-section .service-box{
+    margin: 0px 30px 30px;
+}
+.services-section .service-box .box-title h6{
+ padding-top: 15px;
+}
+.mb-sm-0{
+    margin-bottom: 0px!important;
+}
+
+.main-ad-banner .left-content{
+    display: none;
+}
+.main-ad-banner .container-fluid {
+    padding: 0px!important;
+}
+.ms-sm-0{
+    margin-left: 0 !important;
+}
+.main-ad-banner .right-content .contact-detail .mail,.main-ad-banner .right-content .contact-detail .phone {
+    font-size: 16px!important;
+    display: block;
+    margin-bottom: 10px;
+    border: none!important;
+    margin-left: 5px;
+}
+
+.main-specialist-section .imgSection{
+    display: none;
+}
+
+
+
+/* ---------footer responsive ------------- */
+
+
+
+footer .left-content img{
+width: 70%!important;
+margin-bottom: 20px!important;
+}
+footer .left-content .links{
+    display: inline-block!important;
+}
+footer .left-content .links a{
+    display: block;
+    border: none!important;
+    margin-bottom: 10px;
+}
+footer .right-content .social-icons a {
+    font-size: 20px!important;
+    margin-top: 10px!important;
+    
+}
+
+
+}
+
+
+
+
+
+
+
+
 

@@ -13,7 +13,7 @@ import { Image } from 'react-bootstrap';
 
 
 const About = () => {
-  
+  document.title = "About Our Counselling Services In Jaipur "
   return (
     <>
       <Header about="about" link="#whyus" />
